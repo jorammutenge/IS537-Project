@@ -6,9 +6,9 @@ I'm partially interested in finance and very interested in data science, so I th
 This brings me to the main question of my project: What’s in a Hollywood Wall Street movie? My plan of attack was to do a data analysis investigation of the 13 movies Nick listed in his blog.  
 
 ## Building the dataset
-I wrote a Python script to scrape the data from the blog post using Requests and BeautifulSoup libraries. The data was then converted into a dataframe with Pandas library.  
+I wrote a Python script `scrape_data.py` to scrape the data from the blog post using Requests and BeautifulSoup libraries. The data was then converted into a dataframe with Pandas library.  
 
-Not all movies had scripts freely available online. So I downloaded subtitles for each movie `.srt` files and wrote a Python script that converted them to `.txt` files. This allowed me to perform some text analysis on them.  
+Not all movies had scripts freely available online. So I downloaded subtitles for each movie `.srt` files and converted them to `.txt` files. This allowed me to perform some text analysis on them. Finally, I wrote a Python script `create_script_df.py` to read the contents from each `.md` file and create a dataframe.
 
 Finally, I added the rating and duration of each movie that I got from IMDb. I now had full data set with 13 rows and 6 columns.  
 
