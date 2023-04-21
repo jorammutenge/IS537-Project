@@ -1,4 +1,5 @@
-# What’s in a Hollywood Wall Street movie?
+![cover-01](https://user-images.githubusercontent.com/100508607/233536080-45120330-0c08-44ca-98bc-d61009590de5.png)
+
 The inspiration for this project started with a blog post from Nick Maggiulli, who is a famous personal finance blogger, titled [The 13 Best Wall Street Movies](/https://ofdollarsanddata.com/wall-street-movies) Nick suggests 13 Wall Street movies which he believes are a must watch for everyone interested in finance.  
 
 I'm partially interested in finance and very interested in data science, so I thought of analyzing the 13 movies to see if I could discover some insights. Let me also confess that one of my dreams is to write a movie. I'd love for the movie to be about data science, but I don't think many people would be interested in that. However, many people love finance movies, so owing to my love for numbers, it's highly likely that the movie I dream to write will be about finance.  
